@@ -33,11 +33,11 @@ if(MSVC_IDE)
 endif(MSVC_IDE)
 
 if(UNIX)
-	set(CMAKE_CXX_FLAGS  ${CMAKE_CXX_FLAGS} " -Wall -Wextra")
+	set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 endif(UNIX)
 
 if(MSVC)
-	set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} " /EHsc")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /EHsc")
 endif(MSVC)
 
 
