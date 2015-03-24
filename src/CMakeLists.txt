@@ -15,6 +15,7 @@
 #
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
 set(CPPSPEC_SRCS SpecDoxReporter.cpp SpecificationRegistry.cpp SpecRunner.cpp Util.cpp SpecResult.cpp
 	Timer.cpp Matcher.cpp JUnitReporter.cpp BoostTimer.cpp FileOutputStream.cpp ConsoleOutputStream.cpp)
